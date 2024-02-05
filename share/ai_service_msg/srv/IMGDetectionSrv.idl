@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ai_service_msg/srv/IMGDetectionSrv.srv
+// generated code does not contain a copyright notice
+
+#include "ai_service_msg/msg/IMGDetectionOutput.idl"
+#include "sensor_msgs/msg/Image.idl"
+
+module ai_service_msg {
+  module srv {
+    @verbatim (language="comment", text=
+      " Request")
+    struct IMGDetectionSrv_Request {
+      sensor_msgs::msg::Image img;
+    };
+    @verbatim (language="comment", text=
+      " Respond")
+    struct IMGDetectionSrv_Response {
+      sequence<ai_service_msg::msg::IMGDetectionOutput> goals;
+    };
+  };
+};

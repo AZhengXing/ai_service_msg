@@ -1,0 +1,9 @@
+int8    id
+string  name
+float32 conf
+float32 position_x
+float32 position_x_offset
+float32 position_y
+float32 position_y_offset
+float32 position_z
+float32 position_z_offset

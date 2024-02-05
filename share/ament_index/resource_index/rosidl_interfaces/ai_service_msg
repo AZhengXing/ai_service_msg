@@ -1,0 +1,6 @@
+msg/IMGDetectionOutput.idl
+msg/IMGDetectionOutput.msg
+srv/IMGDetectionSrv.idl
+srv/IMGDetectionSrv.srv
+srv/IMGDetectionSrv_Request.msg
+srv/IMGDetectionSrv_Response.msg
